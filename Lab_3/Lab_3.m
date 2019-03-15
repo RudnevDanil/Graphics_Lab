@@ -16,7 +16,7 @@ xlabel('x'); ylabel('y'); zlabel('z')
 
 byf = make_points_matrix(X,Y,Z);
 byf_1 = byf;
-byf_2 = move(byf,0.3,0.4,0.5);
+byf_2 = move(byf,1,1,1);
 byf_2 = rotate(byf_2,70,'x',0.3,0.4,0.5);
 
 second_figure = make_squared_matrix(byf_2,sizes(1),sizes(2));
